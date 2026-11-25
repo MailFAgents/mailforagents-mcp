@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mailforagents": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://api.mailforagents.io/mcp"]
+    }
+  }
+}

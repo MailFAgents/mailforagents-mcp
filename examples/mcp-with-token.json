@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mailforagents": {
+      "url": "https://api.mailforagents.io/mcp/YOUR_INBOX_ID",
+      "headers": { "Authorization": "Bearer ${MAILFORAGENTS_MCP_TOKEN}" }
+    }
+  }
+}

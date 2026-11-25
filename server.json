@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.mailforagents/mailforagents",
+  "title": "mailforagents",
+  "description": "Email inboxes for AI agents: read, search, reply, send, bulk send and read attachments.",
+  "version": "1.1.0",
+  "websiteUrl": "https://mailforagents.io",
+  "icons": [
+    {
+      "src": "https://mailforagents.io/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mailforagents.io/mcp"
+    }
+  ]
+}

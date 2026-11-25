@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 64" role="img" aria-label="mailforagents.io">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&amp;display=swap');</style>
+  <g>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#244046"/>
+      <stop offset="1" stop-color="#14262A"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9BE7CF"/>
+      <stop offset="1" stop-color="#4FB9A0"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  <!-- señal del agente -->
+  <path d="M43.5 19.5V14" stroke="#D6DDF0" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="43.5" cy="10.5" r="3.6" fill="url(#spark)"/>
+  <!-- sobre -->
+  <rect x="13" y="21" width="38" height="28" rx="6" fill="none" stroke="#D6DDF0" stroke-width="3.4"/>
+  <path d="M15.5 24.5 30 35.2a3.4 3.4 0 0 0 4 0l14.5-10.7" fill="none" stroke="#D6DDF0" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- nodo: el agente dentro del correo -->
+  <circle cx="32" cy="36.6" r="3" fill="url(#spark)"/>
+  <path d="M21 43h6M37 43h6" stroke="#6C8E9C" stroke-width="2.4" stroke-linecap="round"/>
+</g>
+  <text x="78" y="42" font-family="'Space Grotesk', Inter, sans-serif" font-size="30" font-weight="700" letter-spacing="-0.6" fill="#18252B">mailforagents<tspan fill="#547679">.io</tspan></text>
+</svg>
