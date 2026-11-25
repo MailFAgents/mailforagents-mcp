@@ -3,8 +3,12 @@
   "name": "io.mailforagents/mailforagents",
   "title": "mailforagents",
   "description": "Email inboxes for AI agents: read, search, reply, send, bulk send and read attachments.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "websiteUrl": "https://mailforagents.io",
+  "repository": {
+    "url": "https://github.com/MailFAgents/mailforagents-mcp",
+    "source": "github"
+  },
   "icons": [
     {
       "src": "https://mailforagents.io/favicon.svg",
