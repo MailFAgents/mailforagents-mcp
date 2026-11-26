@@ -72,7 +72,7 @@ Header: Authorization: Bearer mfa_mcp_...
 
 ## Herramientas
 
-`get_mailbox`, `list_messages`, `search_messages`, `get_thread`, `send_message`, `reply`, `forward`, `create_draft`, `update_draft`, `list_attachments`, `get_attachment` (PDF, Word, Excel y PowerPoint como texto), `upload_file`, `move_message`, `add_label`, `massive_send` (una llamada, muchos destinatarios, con variables), `get_massive_send` y `retry_message`. El detalle está en el [README en inglés](README.md#tools).
+`get_mailbox`, `list_messages`, `search_messages`, `get_thread`, `send_message`, `reply`, `forward`, `create_draft`, `update_draft`, `list_attachments`, `get_attachment` (PDF, Word, Excel y PowerPoint como texto), `upload_file`, `move_message`, `add_label`, `massive_send` (una llamada, muchos destinatarios, con variables), `get_massive_send`, `retry_message` y `update_mailbox` (cambia el nombre visible y la firma). El detalle está en el [README en inglés](README.md#tools).
 
 ## Seguridad
 

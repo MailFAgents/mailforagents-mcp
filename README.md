@@ -91,6 +91,7 @@ Header: Authorization: Bearer mfa_mcp_...
 | `massive_send` | One call, many recipients: the same template with `{{name}}`, `{{email}}` or custom variables, one separate email per person. |
 | `get_massive_send` | Progress of a bulk send. |
 | `retry_message` | Retry a failed send. |
+| `update_mailbox` | Change the sender display name and the email signature (Markdown). |
 
 Each inbox has permission groups (read, send, drafts, files, folders) to turn tools on or off.
 
