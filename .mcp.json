@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "mailforagents": {
+      "url": "https://api.mailforagents.io/mcp"
+    }
+  }
+}
